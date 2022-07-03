@@ -14,7 +14,7 @@ with header:
 with dataset:
     st.header('NYC taxi dataset')
     st.text('I made this up as below')
-    df = pd.read_csv('C://Users//Arjun//PycharmProjects//streamlit_test_001//test_file_data_001.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/arjunbrara123/streamlit_test_001/master/test_file_data_001.csv')
     st.write(df.head(7))
 
 with features:
